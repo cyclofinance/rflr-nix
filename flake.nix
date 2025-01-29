@@ -17,7 +17,7 @@
       in {
         pkgs = pkgs;
         devShells.default = pkgs.mkShell {
-          buildInputs = [ pkgs.yarn pkgs.foundry-bin ];
+          buildInputs = [ pkgs.yarn pkgs.foundry-bin pkgs.git ];
         };
       });
 }

@@ -1,0 +1,3 @@
+[submodule "rnat-distribution-tool"]
+	path = rnat-distribution-tool
+	url = git@github.com:flare-foundation/rnat-distribution-tool.git
